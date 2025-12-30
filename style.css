@@ -55,6 +55,24 @@ nav a {
 nav a:hover {
     background: rgba(255,255,255,0.2);
 }
+
+/* Nur für kleine Bildschirme (Mobile) */
+@media (max-width: 767px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav a {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+}
+nav a.active {
+    background: rgba(255,255,255,0.3);
+    border-left: 0px solid #ff9500;
+}
 /* Bilder */
 
 .center-img {
