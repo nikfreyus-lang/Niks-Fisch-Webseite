@@ -56,8 +56,10 @@ nav a:hover {
     background: rgba(255,255,255,0.2);
 }
 
+
+
 /* Nur für kleine Bildschirme (Mobile) */
-@media (max-width: 767px) {
+@media (max-width: 420px) {
     nav {
         display: flex;
         flex-direction: column;
